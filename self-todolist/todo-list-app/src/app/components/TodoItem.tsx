@@ -22,7 +22,7 @@ const TodoItem: React.FC<Props> = ({ todo, setTodos }) => {
   return (
     // 전체 아이템을 감싸는 div에 display: flex와 justifyContent: space-between을 적용하여
     // 체크박스를 왼쪽에, 삭제 버튼을 오른쪽에 배치합니다. 목록 내용은 자연스럽게 가운데에 위치합니다.
-    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '600px', marginBottom: '10px'}}>
+    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '600px', marginBottom: '5px'}}>
       {/* 체크박스를 왼쪽에 배치합니다. marginRight을 적용하여 옆에 있는 요소와의 간격을 조정합니다. */}
       <input
         type="checkbox"
