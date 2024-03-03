@@ -9,3 +9,7 @@ export async function GET(request : NextRequest) {
   }
   return NextResponse.json(response, { status : 200 });
 }
+
+export async function POST(request : NextRequest) {
+  return 
+}
